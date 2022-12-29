@@ -1,0 +1,26 @@
+<div class="product">
+
+  <button class="btn btn-danger bt-sm mt-3" *ngIf="isCartRoute()" (click)="remove()">
+    <i class="fa fa-trash-alt"></i>Remove
+  </button>
+  <div class="image-box ">
+
+    <img src="{{productItem.image}}" alt="{{ productItem.name }}" style="width:100%"
+      [routerLink]="['/products', productItem.id]">
+    
+  </div>
+  <div class="text-box">
+    <h2 class="item">{{ productItem.name }}</h2>
+    <h3 class="price">{{ productItem.price }}</h3>
+    <p class="description">{{ productItem.description }}</p>
+    <label for="item-1-quantity">Quantity:</label>
+
+
+    <select type="select" name="item-1-quantity" id="item-1-quantity"
+      (ngModelChange)="onQtyChange(productItem.qty,$event)" [ngModel]="productItem.qty">
+      <option *ngFor="let number of [1,2,3,4,5]" [value]="number">{{number}}</option>
+    </select>
+    <button type="button" name="item-1-button" id="item-1-button" *ngIf="!isCartRoute()" (click)="addToCart(productItem)">Add to Cart</button>
+  </div>
+</div>
+<p *ngIf="!productItem">Loading...</p>

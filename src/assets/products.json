@@ -1,0 +1,92 @@
+[
+  {  
+    "id": 1,
+    "name": "iPhone 1",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "qty": 1,
+    "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    
+  },  
+  {  
+    "id": 2,
+    "name": "iPhone 2",
+    "description": "344",
+    "price": 549,
+    "qty": 1,
+    "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    
+  },  
+  {  
+    "id": 3,
+    "name": "iPhone 3",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "qty": 1,
+    "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    
+  },  
+  {  
+    "id": 4,
+    "name": "iPhone 4",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "qty": 1,
+    "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    
+  },  
+  {  
+    "id": 5,
+    "name": "iPhone 5",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "qty": 1,
+    "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    
+  },  
+  {  
+    "id": 6,
+    "name": "iPhone 6",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "qty": 1,
+    "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    
+  },  
+  {  
+    "id": 7,
+    "name": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "qty": 1,
+    "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    
+  },  
+  {  
+    "id": 8,
+    "name": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "qty": 1,
+    "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    
+  },  
+  {  
+    "id": 9,
+    "name": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "qty": 1,
+    "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    
+  },  
+  {  
+    "id": 10,
+    "name": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "qty": 1,
+    "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    
+  }
+]
